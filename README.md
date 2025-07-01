@@ -1,1 +1,36 @@
-# Gallery 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Gallery of Scorpion</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Gallery of Scorpion</a>
+      <ul>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="portraits.html">Portraits</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-section">
+    <h1 class="page-title">Get in Touch</h1>
+    <p class="tagline">Feed your soul. Capture the beauty.</p>
+    <div class="contact-card">
+      <p><strong>Phone:</strong> <a href="tel:+919843824866">+91 98438 24866</a></p>
+      <p><strong>Email:</strong> <a href="mailto:lselvan7533@gmail.com">lselvan7533@gmail.com</a></p>
+      <p><strong>Social:</strong> Instagram coming soon</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gallery of Scorpion</p>
+  </footer>
+</body>
+</html>
