@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery of Scorpion | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Gallery of Scorpion</a>
+      <ul>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="portraits.html">Portraits</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="slideshow">
+    <div class="slides fade">
+      <img src="https://source.unsplash.com/1600x900/?nature" alt="Slide 1">
+    </div>
+    <div class="slides fade">
+      <img src="https://source.unsplash.com/1600x900/?portrait" alt="Slide 2">
+    </div>
+    <div class="slides fade">
+      <img src="https://source.unsplash.com/1600x900/?event" alt="Slide 3">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gallery of Scorpion</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
