@@ -116,3 +116,43 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portraits | Gallery of Scorpion</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Gallery of Scorpion</a>
+      <ul>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="portraits.html" class="active">Portraits</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">Portrait Photography</h1>
+    <p class="tagline">Every expression tells a story.</p>
+    <div class="gallery-grid">
+      <!-- Placeholder images -->
+      <figure><img src="https://source.unsplash.com/600x400/?portrait,1" alt="Portrait 1"><figcaption>Portrait 1</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?portrait,2" alt="Portrait 2"><figcaption>Portrait 2</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?portrait,3" alt="Portrait 3"><figcaption>Portrait 3</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?portrait,4" alt="Portrait 4"><figcaption>Portrait 4</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?portrait,5" alt="Portrait 5"><figcaption>Portrait 5</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?portrait,6" alt="Portrait 6"><figcaption>Portrait 6</figcaption></figure>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gallery of Scorpion</p>
+  </footer>
+</body>
+</html>
