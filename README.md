@@ -34,3 +34,43 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events | Gallery of Scorpion</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Gallery of Scorpion</a>
+      <ul>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="portraits.html">Portraits</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">Event Photography</h1>
+    <p class="tagline">Capturing milestone moments with artistic flair.</p>
+    <div class="gallery-grid">
+      <!-- Placeholder images -->
+      <figure><img src="https://source.unsplash.com/600x400/?event,1" alt="Event 1"><figcaption>Event 1</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?event,2" alt="Event 2"><figcaption>Event 2</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?event,3" alt="Event 3"><figcaption>Event 3</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?event,4" alt="Event 4"><figcaption>Event 4</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?event,5" alt="Event 5"><figcaption>Event 5</figcaption></figure>
+<figure><img src="https://source.unsplash.com/600x400/?event,6" alt="Event 6"><figcaption>Event 6</figcaption></figure>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gallery of Scorpion</p>
+  </footer>
+</body>
+</html>
